@@ -1,4 +1,4 @@
- package br.com.fiap.ConnectionFactory;
+package br.com.fiap.config;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -15,5 +15,5 @@ public class ConnectionFactory {
         return DriverManager.getConnection(URL, USUARIO, SENHA);
     }
 
-};
+}
 

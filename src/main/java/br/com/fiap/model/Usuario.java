@@ -1,4 +1,4 @@
-package br.com.fiap.Model;
+package br.com.fiap.model;
 
 
 import java.time.LocalDate;
@@ -140,4 +140,4 @@ public class Usuario {
         this.status = status;
     }
 
-    }
+}
